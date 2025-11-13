@@ -41,7 +41,7 @@ O sistema inclui:
 ## 🗂️ Estrutura do Projeto
 
 ```
-
+##
 apiRest-Dados/
 │
 ├── prisma/
@@ -64,7 +64,7 @@ apiRest-Dados/
 ├── package.json               # Configurações e dependências
 ├── tsconfig.json              # Configuração TypeScript
 └── README.md                  # Documentação completa
-
+##
 ````
 
 ---
@@ -271,3 +271,4 @@ Desenvolvedor Backend & Fullstack JavaScript
 🚀 “Código limpo, escalável e de fácil manutenção.”
 
 ---
+
