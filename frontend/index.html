@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - API REST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Dashboard de Vendas</h1>
+    <fieldset>
+        <legend>Gráfico de Vendas</legend>
+        <canvas id="chartCanvas" width="600" height="400"></canvas>
+    </fieldset>
+    <div class="form">
+        <label>Tipo de Gráfico:</label>
+        <select id="chartType">
+            <option value="pizza">Pizza</option>
+            <option value="bar">Barra</option>
+            <option value="line">Linha</option>
+        </select>
+        <label>Data Início:</label>
+        <input type="date" id="startDate">
+        <label>Data Fim:</label>
+        <input type="date" id="endDate">
+        <button onclick="buscarDados()">Buscar</button>
+    </div>
+
+    <canvas id="chartCanvas" width="600" height="400"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <footer style="margin-top:30px; font-size:0.85rem; color:#6b7280;">
+        Desenvolvido por <b>Rafael Pereira</b> • Teste Técnico Backend Sênior
+    </footer>
+</body>
+
+</html>
